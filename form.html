@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>Example Form</title>
+    <link href="style1.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <nav><a href="index.html">Home</a></nav>
+      </div>
+      <h2><a id="form">Rosie's Form</a></h2>
+      <div class="form">
+        <div>
+          <label for="username">Username</label>
+          <input type="username" name="username" id="username" />
+          <label for="user-password">Password</label>
+          <input type="password" name="user-password" id="user-password" />
+        </div>
+        <hr />
+        <section class="text">
+          <label for="text">Text</label>
+          <input type="text" name="text" id="text" />
+        </section>
+        <hr />
+        <section class="number">
+          <label for="number">Number</label>
+          <input type="number" name="number" id="number" />
+        </section>
+        <hr />
+        <section class="range">
+          <label for="range">Range</label>
+          <p>
+            How much do you agree?
+          </p>
+          <input
+            type="range"
+            name="range"
+            id="range"
+            value="1"
+            min="1"
+            max="10"
+          />
+        </section>
+        <hr />
+        <section class="checkbox">
+          <p>
+            Check your favourite box(es):
+          </p>
+          <label for="checkbox 1">Checkbox 1</label>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox 1"
+            value="checkbox 1"
+          />
+          <label for="checkbox 2">Checkbox 2</label>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox 2"
+            value="checkbox 2"
+          />
+          <label for="checkbox 3">Checkbox 3</label>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox 3"
+            value="checkbox 3"
+          />
+        </section>
+        <hr />
+        <section class="radio">
+          <p>
+            Choose an option:
+          </p>
+          <label for="radio 1">Radio 1</label>
+          <input type="radio" name="radio" id="radio 1" value="radio 1" />
+          <label for="radio 2">Radio 2</label>
+          <input type="radio" name="radio" id="radio 2" value="radio 2" />
+          <label for="radio 3">Radio 3</label>
+          <input type="radio" name="radio" id="radio 3" value="radio 3" />
+        </section>
+        <hr />
+        <section class="options">
+          <p>
+            Select one from the list.
+          </p>
+          <label for="options">Options</label>
+          <select name="options" id="options">
+            <option value="option 1">Option 1</option>
+            <option value="option 2">Option 2</option>
+            <option value="option 3">Option 3</option>
+          </select>
+        </section>
+        <hr />
+        <section class="list">
+          <label for="list">Datalist</label>
+          <input
+            list="choices"
+            name="choices"
+            id="choices"
+            placeholder="None"
+          />
+          <datalist id="choices1" autocomplete>
+            <option value="choice 1">Choice 1</option>
+            <option value="choice 2">Choice 2</option>
+            <option value="choice 3">Choice 3</option>
+          </datalist>
+        </section>
+        <hr />
+        <section class="blog">
+          <label for="blog">Blog</label>
+          <br />
+          <textarea
+            id="blog"
+            name="blog"
+            style="margin: 0px; width: 100%; height: auto;"
+          >
+This is where you write stuff</textarea
+          >
+        </section>
+        <hr />
+        <section class="submission">
+          <input type="submit" formtarget="_blank" value="Submit" />
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

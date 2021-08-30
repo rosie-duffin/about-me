@@ -1,0 +1,132 @@
+/*style sheet numero uno*/
+
+@font-face {
+  font-family: satisfy;
+  src: url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
+}
+
+@font-face {
+  font-family: breeserif;
+  src: url(https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap);
+}
+
+body {
+  background-color: #274b73;
+  color: #26579c;
+}
+
+#header {
+  color: #26579c;
+  font-family: Satisfy;
+  background: #77a6d4;
+  text-align: center;
+  margin: auto;
+  padding: 1px;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+#header.frontpage {
+  border-radius: 50px;
+  border: 10px solid #335e91;
+}
+
+#container {
+  background: #5c6670;
+  border-radius: 20px;
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+nav {
+  font-family: Satisfy;
+  font-size: 24px;
+  background: #77a6d4;
+  color: #26579C;
+  text-align: center;
+  border-radius: 20px;
+  padding: 1px;
+}
+
+a:visited {
+  color: #274b73;
+}
+
+h2 {
+  color: #274b73;
+  font-family: satisfy;
+  font-size: 40px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 0 0 0;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px;
+}
+
+.section {
+  padding: 10px;
+  margin: auto;
+  background: #5c6670;
+}
+
+table,
+tr,
+td {
+  background: #77a6d4;
+  color: ghostwhite;
+  border: 1px solid #26579C;
+  border-collapse: collapse;
+}
+
+.diary {
+  font-family: satisfy;
+  font-size: 24px;
+}
+
+.work {
+  font-family: "bree serif";
+  font-size: 20px;
+}
+
+#footer {
+  clear: both;
+  color: ghostwhite;
+  font-family: "bree serif";
+  background: #77a6d4;
+  padding: 5px 10px;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.form {
+  font-family: "bree serif";
+  font-size: 18px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.gallery:hover {
+  border: 5px solid #77a6d4;
+}
